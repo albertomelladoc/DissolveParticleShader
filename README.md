@@ -10,6 +10,7 @@ It also uses the Unity's custom particle data to add an offset to it.
 
 ![Alt Text](https://github.com/albertomelladoc/DissolveParticleShader/blob/master/Tutorial.gif)
 
+STEPS:
 
 1. Set Up: 
 Create a particle system that emits sphere meshes and a Unlit Shader
@@ -30,5 +31,8 @@ Add a noise texture and use discard when the color.a <= noise.r
 
 6. Offset (Optional)
 Using particles custom data pass a random value to the noise uvs.
+
+![Alt Text](https://github.com/albertomelladoc/DissolveParticleShader/blob/master/ParticleData.JPG)
+
 
 
